@@ -44,5 +44,5 @@ variable "node_group_name" {
 variable "s3_bucket_name" {
   description = "Name of the S3 bucket for Terraform backend"
   type        = string
-  default     = "bucket-for-insureme-terraform-state-file" # Replace with your actual S3 bucket name make sure the bucket exists
+  default     = "online-boutique-tfstate-om-123" # Replace with your actual S3 bucket name make sure the bucket exists
 }
